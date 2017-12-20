@@ -646,8 +646,7 @@ class DayPicker extends React.Component {
         {...css(
           styles.DayPicker_weekHeader,
           this.isVertical() && styles.DayPicker_weekHeader__vertical,
-          verticalScrollable && styles.DayPicker_weekHeader__verticalScrollable,
-          weekHeaderStyle,
+          verticalScrollable && styles.DayPicker_weekHeader__verticalScrollable
         )}
         key={`week-${index}`}
       >
